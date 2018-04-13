@@ -1,0 +1,100 @@
+body {
+    margin:0px;
+    padding: 0px;
+    border: 0px;
+    background-color: black;
+    overflow-x: hidden;
+    
+}
+
+@font-face {
+    font-family: litsans;
+    src: url(../data/fonts/LitSans-Medium.otf);
+}
+
+
+/* Bara de navigatie */
+
+.bara-navigatie {
+    z-index:10;
+    top:0;
+    width:100%;
+    position: fixed;
+    background-color: #b30000 ;
+    color:white;
+    padding: 7px;
+}
+
+.logo {
+    height: 50px;
+    top:8px;
+    left:200px;
+    position: absolute;
+}
+.elemente-bara-navigatie {
+    text-align: center;
+}
+li {
+    display: inline;
+}
+
+li a {
+    text-decoration: none;
+    color:white;
+    text-transform: uppercase;
+    word-spacing: 1px;
+    padding: 15px;
+}
+
+li a:hover {
+    color: #ffb3b3;
+    width: 10px;
+    height: 10px;
+}
+
+.container {
+    display: grid;
+    grid-row-gap: 50px;
+    grid-template-rows:100% 100% 100%;
+
+}
+
+.banner {
+    top:20px;
+    position:relative;
+    width:100%;
+    background-image: url(../pages/keyboards/b2.jpg);
+    background-size: cover;
+    height:350px;
+
+}
+
+.banner > h2 {
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    color:white;
+    text-align:center;
+    font-family: litsans;
+    padding-top:130px;
+    font-size:55px;
+}
+
+.boxes {
+    height:300px;
+    left:0px;
+    top:70px;
+    color:black;
+    position: relative;
+    display: grid;
+    grid-row-gap: 50px;
+    grid-template-rows:100% 100% 100%;
+
+}
+
+.box1, .box2, .box3 {
+background-color:white;
+}
+
+.box1 > img {
+    margin-left:30px;
+    width:400px;
+}
