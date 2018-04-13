@@ -1,2 +1,3 @@
 # website-project
-Online gaming gear shop
+Gaming related online shop//
+Work in progress//
